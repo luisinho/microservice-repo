@@ -11,5 +11,5 @@ spring:
           use_jdbc_metadata_defaults: false
         jdbc:
           lob:
-            non_contextual_creation: true
-        ddl-auto: create
+            non_contextual_creation: false
+        ddl-auto: update
